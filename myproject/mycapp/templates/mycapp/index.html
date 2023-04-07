@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My App</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+</head> 
+<body id="indexpage" style="background-color: lightblue; font-family: Arial, sans-serif; text-align: center;">
+    <h1 style="color: navy; font-size: 50px;">Welcome to My App!📱</h1>
+    <br></br>
+    <h2 style="color: navy; background-color: lightblue; padding: 10px; font-size: 40px;">My Contacts✍️</h2>
+    
+    <button style="text-align: center;display: block; margin: 0 auto; background-color: navy; color: white; border-radius: 50px; padding: 10px 20px; font-size: 24px; box-shadow:3px 3px rgb(0, 0, 0);" onclick="location.href='/contacts/';">Contacts📔</button>
+      
+    <br><br>
+    <h2 style="position: fixed; bottom: 95px; font-size: 40px; right: 195px; color: navy;">Need Help?</h2>
+    <br><br>
+    <button class="button-hover" style="position: fixed; bottom: 50px; right: 195px;background-color: navy; color: white; border-radius: 50px; padding: 10px 20px; font-size: 24px; box-shadow: 3px 3px rgb(0, 0, 0);" onclick="location.href='/help/';">🙋 Help is here!</button>
+</body>
+
+
+</html>
